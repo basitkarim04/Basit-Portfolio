@@ -1,0 +1,220 @@
+.row{
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+}
+.column{
+    float: left;
+    width: 100%;
+}
+
+.aside{
+    float: left;
+    width: 50%;
+}
+.img{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url("basit.jpg") ;
+    float: right;
+    border-style:outset;
+    width: 80%;
+    height: 100%;
+    margin-right: 20%;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 50px;
+}
+
+.imgcontent{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url("content_writing.jpg");
+    float: right;
+    border-style:outset;
+    width: 80%;
+    height: 60%;
+    margin-right: 20%;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 50px;
+}
+.sec{
+    background-color: aliceblue; 
+    height: 600px;
+}
+.section{
+    background-color: aliceblue;
+    color:black; 
+    padding-top: 10%;
+    height: max-content;
+}
+#scrollspyHeading2{
+    color:#697CFF!important;
+    text-shadow: 0px 25px 8px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#scrollspyHeading3{
+    color:#697CFF!important;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+#scrollspyHeading4{
+    color:#697CFF!important;
+    text-shadow: 0px 25px 8px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+#scrollspyHeading5{
+    margin-bottom: 5%;
+    color:#697CFF!important;
+    text-shadow: 0px 25px 8px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+.image{
+    background-image: url(About.jpg);
+    background-color: black;
+}
+
+.btn{
+    width: auto; 
+    margin-top: 20px;
+}
+
+#design{
+    font-size: larger;
+    background-color: white;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 20%;
+}
+
+.icons{
+    font-size: larger;
+    background-color: white;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 10%;
+    width: max-content;
+}
+#services{
+    font-size: larger;
+    background-color: white;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+.h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+
+.h2{
+    font-family: 'Times New Roman', serif;
+    padding-bottom: 5px;
+}
+.para{
+    line-height: normal;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.edu{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.abbe{
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin-right: 5%;
+    border-radius: 40px;
+    height: max-content;
+    cursor: pointer;
+}
+
+.abbe:hover{
+    background-color: grey;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.bbe{
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    border: 5px solid darkcyan;
+    margin-right: 5%;
+    font-size: 20px;
+    height: 500px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.bbe:hover{
+    background-color: grey;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.contact{
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-right: 5%;
+    font-size: 20px;
+    height: auto;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 10% black;
+}
+.contact:hover{
+    background-color: grey;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.imgweb{
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.progress{
+    width: 80%;
+    margin-left: 30px;
+    right: 10px;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display:block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}  
+#message{
+    border-radius: 30px;
+}
