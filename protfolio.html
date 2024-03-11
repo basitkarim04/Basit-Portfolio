@@ -18,8 +18,9 @@
 
 <body>
   <header>
-    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3" class="navbar bg-dark" data-bs-theme="dark"
-      style="position: fixed; width: 100%;">
+     <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3" class="navbar bg-dark" data-bs-theme="dark"
+      style="position: fixed; width: 100%;"> 
+      
       <a class="navbar-brand" href="#">PORTFOLIO</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
@@ -31,6 +32,10 @@
 
         <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading3">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading6">Projects</a>
         </li>
 
         <li class="nav-item">
@@ -78,7 +83,7 @@
                <br> Highly experienced in 
                 web design and development.
               </h6>
-               <p><a  href="#scrollspyHeading5"> <button type="button" class="btn btn-info" class="btn">
+              <p><a  href="#scrollspyHeading5"> <button type="button" class="btn btn-info" class="btn">
                   Contact Me
                   <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>  
                 </button></a>
@@ -99,8 +104,8 @@
         <h4 id="scrollspyHeading2">About Me</h4>
         <div class="row" style="margin-left: 10%; margin-right: 10%; padding-top: 5%; ">
           <div class="aside" style="display: flex;">
-            <img src="About.jpg" width="50%" height="80%">
-
+            <!-- <img src="About.jpg" width="50%" height="80%"> -->
+            <img src="About.jpg" alt="Description of the image" width="50%" height="80%">
 
             <div>
               <h3 style="color: black;">I'm Basit</h3> <br>
@@ -212,11 +217,50 @@
 
       <hr>
       <section class="section">
+        <h4 id="scrollspyHeading6">Projects</h4>
+       
+        <div class="row" style="margin-left: 10%; margin-right: 10%; padding-top: 5%; ">
+          <div class="aside" style="display: flex;">
+
+            <a href="https://basitkarim04.github.io/TIC-TAC-TOE-GAME/tic.html">
+              <img src="Project_Tic_Tac.png" alt="Description of the Tic Tac Toe project" class="Ticimg">
+
+      </a>
+            <div>
+              <h3 style="color: black;">Title: Classic Tic Tac Toe Game</h3> <br>
+              <h5 style="color: black;">Description</h5>
+
+              <h5 style="color:darkslateblue;">
+                Experience the timeless classic Tic Tac Toe game in a digital format. <br>
+                This game, created using JavaScript,<br> brings the familiar grid-based challenge to your fingertips.
+                <br>  Play against a friend or challenge the computer with <br> three difficulty levels. <br>
+                 The minimalist design keeps the focus on the gameplay,<br> providing a clean and intuitive interface. 
+                 <br>Enjoy the thrill of strategic moves and <br> quick thinking as you aim to get three in a row. <br>
+                 Whether you're a seasoned player or new to the game, <br> this digital adaptation of Tic Tac Toe <br>
+                 offers a fun and engaging experience for all ages.</h5>
+
+              <p>
+                <a href="https://basitkarim04.github.io/TIC-TAC-TOE-GAME/tic.html" 
+                class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                  Play</a>
+
+              </p>
+            </div>
+            </div>
+        </div>
+      </section>
+      <!-- End of Projects Section-->
+
+
+      <hr>
+      <section class="section">
         <h4 id="scrollspyHeading4">Services</h4>
 
           <div class="row" style="margin-left: 10%; margin-right: 10%; padding-top: 5%; ">
             <div class="aside" style="display: flex;">
-              <img src="https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg"class="imgweb" width="40%" height="100%">
+              <img src="https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg" alt="Description of the image" class="imgweb" width="40%" height="100%">
+
   
   
               <div style="margin-left: 10px;">
@@ -329,8 +373,9 @@
       
     <div class="contact">
       <p><i>
-        I'm always open to dicussing to product <br>
-        <h3>design work or partnership</h3>
+        An advocate for innovation and collaboration! If you're in search of a design enthusiast 
+        or a reliable partner for your next venture, let's connect and explore the endless possibilities.<br>
+    
       </i>
   
 <form action="/send-mail" method="post">
@@ -373,12 +418,12 @@ duration: 2500,
 delay: 100
 });
 // HOME
-ScrollReveal().reveal(' .design, h1 ', { delay: 500, origin: 'left' });
-ScrollReveal().reveal(' .design, h3, h6, h5, p ', { delay: 500, origin: 'bottom' });
-ScrollReveal().reveal(' .design, .img, .imgcontent' , { delay: 600, origin: 'right' });
+ScrollReveal().reveal(' .design, h1 ', { delay: 300, origin: 'left' });
+ScrollReveal().reveal(' .design, h3, h6, h5, p ', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal(' .design, .img, .imgcontent' , { delay: 300, origin: 'right' });
 
 // ABOUT
-ScrollReveal().reveal(' .aside ', { delay: 500, origin: 'left' });
+ScrollReveal().reveal(' .aside ', { delay: 300, origin: 'left' });
 ScrollReveal().reveal("#scrollspyHeading2 , #scrollspyHeading3, #scrollspyHeading4,#scrollspyHeading5 ", {
   duration: 4000,
   scale: 0.85
@@ -388,3 +433,5 @@ ScrollReveal().reveal("#scrollspyHeading2 , #scrollspyHeading3, #scrollspyHeadin
 </body>
 
 </html>
+
+
