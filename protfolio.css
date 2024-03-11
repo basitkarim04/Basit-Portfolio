@@ -1,3 +1,4 @@
+/* styles.css */
 .row{
     content: "";
     clear: both;
@@ -75,7 +76,6 @@
     text-decoration: underline;
 
 }
-
 #scrollspyHeading5{
     margin-bottom: 5%;
     color:#697CFF!important;
@@ -85,6 +85,20 @@
     font-size: 30px;
     text-decoration: underline;
 
+}
+#scrollspyHeading6{
+    color:#697CFF!important;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.Ticimg{
+    width: 80%;
+    height: auto;
+    margin:auto;
+    display:block;
+    border-radius: 10% ;
 }
 .image{
     background-image: url(About.jpg);
